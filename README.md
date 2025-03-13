@@ -13,7 +13,7 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 - **Dynamic Host Configuration Protocol (DHCP)** for providing ip address automitically
 
 ## 🔍 Network Topology
-![Network Topology](./your-topology-image.png)  
+![Network Topology](./Screenshot%202025-03-13%20101301.png)  
 
 ## 🚀 Features & Configuration
 1. **Network Segmentation**
