@@ -11,13 +11,15 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 - **Access Control Lists (ACLs)** to restrict unauthorized access
 - **Spanning Tree Protocol (STP)** for redundancy
 - **Dynamic Host Configuration Protocol (DHCP)** for providing ip address automitically
+- **Port Security**  for securing switche's ports
+- **Etherchannel**  for increased bandwidth and redundancy
 
 ## 🔍 Network Topology
 ![Network Topology](./Screenshot%202025-03-13%20101301.png)  
 
 ## 🚀 Features & Configuration
 1. **Network Segmentation**
-   - 5 VLANs (Departments 1-5)  
+   - 6 VLANs (Departments 1-5 and Guest Network)  
    - 1 **DMZ** network  
    - 1 **Guest Wi-Fi network**  
    
@@ -29,7 +31,7 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 3. **High Availability & Redundancy**
    - **HSRP failover** between core routers  
    - **STP prevents switching loops**  
-   - **ACLs limit access to critical resources**  
+   - **ACLs limit access to critical resources**
 
 ## 🔧 How to Open the Project
 1. Download [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
