@@ -5,14 +5,16 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 - **VLANs** for departmental segmentation
 - **Router-on-a-Stick** inter-VLAN routing
 - **HSRP (Hot Standby Router Protocol)** for router failover
-- **Cisco ASA Firewall** for DMZ security
 - **WPA2-PSK with AES** encryption for guest Wi-Fi
 - **Syslog Server** for centralized logging
 - **Access Control Lists (ACLs)** to restrict unauthorized access
-- **Spanning Tree Protocol (STP)** for redundancy
+- **Spanning Tree Protocol (STP)** for redundancy and preventing loop
 - **Dynamic Host Configuration Protocol (DHCP)** for providing ip address automitically
 - **Port Security**  for securing switche's ports
 - **Etherchannel**  for increased bandwidth and redundancy
+- **Email Server** to provide email service
+- **Domain Name System (DNS)** to map ip to domain name
+- **Secure Socket Layer (SSH)** for securing remote access
 
 ## 🔍 Network Topology
 ![Network Topology](./Screenshot%202025-03-13%20101301.png)  
@@ -27,6 +29,7 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
    - **Syslog server** logs all network device activities  
    - **WPA2 wireless security** for guest access
    - **Port Security**  for securing switche's ports
+   - **Secure Socket Layer (SSH)** for securing remote access
 
 3. **High Availability & Redundancy**
    - **HSRP failover** between core routers  
