@@ -46,6 +46,11 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 - Hands-on experience with **VLANs, routing, and security**.
 - Implementation of **firewall policies and network monitoring**.
 
+## 👤 About Me
+
+Created by [Your Name] — aspiring Cybersecurity Analyst  
+[LinkedIn Profile] | [GitHub Profile]
+
 ---
 
 Feel free to contribute or suggest improvements! 🚀
