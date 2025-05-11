@@ -30,11 +30,11 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
    - **WPA2 wireless security** for guest access
    - **Port Security**  for securing switche's ports
    - **Secure Socket Layer (SSH)** for securing remote access
+   - **Access Control List (ACL)** to limit access between departments
 
 3. **High Availability & Redundancy**
    - **HSRP failover** between core routers  
-   - **STP prevents switching loops**  
-   - **ACLs limit access to critical resources**
+   - **STP prevents switching loops**
 
 ## 🔧 How to Open the Project
 1. Download [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
@@ -42,15 +42,14 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 3. Open the `.pkt` file in Cisco Packet Tracer.
 
 ## 📖 Learning Outcomes
-- Practical understanding of **enterprise network design**.
-- Hands-on experience with **VLANs, routing, and security**.
-- Implementation of **firewall policies and network monitoring**.
+- Practical understanding of **Networking**.
+- Hands-on experience with **VLANs, routing, and ACLs and SSH Configuration**.
 
 ## 👤 About Me
 
-Created by [Your Name] — aspiring Cybersecurity Analyst  
-[LinkedIn Profile] | [GitHub Profile]
+Created by [Yell Mahn Oo] — aspiring Cybersecurity Analyst  
+[LinkedIn Profile](https://www.linkedin.com/in/yell-mahn-44032a346/)
 
 ---
 
-Feel free to contribute or suggest improvements! 🚀
+Feel free to suggest improvements! 🚀
