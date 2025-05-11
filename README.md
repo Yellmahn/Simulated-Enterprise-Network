@@ -17,7 +17,7 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 - **Secure Socket Layer (SSH)** for securing remote access
 
 ## 🔍 Network Topology
-![Network Topology](./Screenshot%202025-03-13%20101301.png)  
+![Network Topology](./topology/Network_topology.png)  
 
 ## 🚀 Features & Configuration
 1. **Network Segmentation**
