@@ -22,13 +22,13 @@ This simulated enterprise network is designed using **Cisco Packet Tracer** to r
 ### 🔹 VLAN Structure
 - VLANs are used to segment departments
 - A separate VLAN is allocated for Guest Wi-Fi access
-- A dedicated DMZ VLAN isolates publicly accessible servers (e.g., Email, DNS)
+- A dedicated DMZ VLAN isolates publicly accessible servers (e.g.Web, Email, DNS)
 
 ### 🔹 Routing & Redundancy
 - **Router-on-a-Stick** is used for inter-VLAN routing
 - Two routers are configured with **HSRP** for default gateway redundancy
 - Core switches utilize **STP** to prevent switching loops
-- **EtherChannel** links between switches and routers improve bandwidth and provide redundancy
+- **EtherChannel** links between switches improve bandwidth and provide redundancy
 
 ### 🔹 Security Measures
 - **ACLs** are applied to control access between VLANs and to/from the DMZ
@@ -41,7 +41,7 @@ This simulated enterprise network is designed using **Cisco Packet Tracer** to r
 - A **DHCP Server** provides IP addresses for multiple VLANs
 - An internal **DNS Server** is used to resolve local domains
 - An **Email Server** resides in the DMZ for external/internal communications
-
+- A **Web Server** to provide web services
 ---
 
 ## 🌐 DMZ Design
@@ -49,15 +49,15 @@ This simulated enterprise network is designed using **Cisco Packet Tracer** to r
 - The DMZ contains:
   - Email Server
   - DNS Server
+  - Web Server
+  - Syslog Server
 - Access to DMZ services is tightly controlled using ACLs
-- Public services are isolated from the internal network
-
 ---
 
 ## 📶 Guest Wi-Fi Zone
 
 - Separate VLAN and SSID
-- Connected via a wireless router with WPA2 encryption
+- Connected via a wireless router with WPA2 security with AES encryption
 - ACLs prevent access from Guest VLAN to internal VLANs
 
 ---
