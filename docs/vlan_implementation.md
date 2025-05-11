@@ -16,6 +16,7 @@ The network is segmented into six active VLANs to provide logical separation for
 | 40      | Department 4     | Department 4     | Department's PC  |
 | 50      | Department 5     | Department 5     | Department's PC  |
 | 60      | Public_WiFi      | Guest Network    | Wireless Clients |
+| 100     | DMZ              | DMZ Network      | DMZ Endpoints	   |
 | 999     | Native_Vlan      | Native VLAN      | Unused Ports	   |
 
 ---
@@ -55,4 +56,4 @@ There are **three trunk links** established in the topology:
   - VLAN 40 (DEPT4)
   - VLAN 60 (GUEST)
 
-This STP design enables load balancing by distributing root bridge roles across both core switches.
+This STP design enables Redundancy by distributing root bridge roles across both core switches.
