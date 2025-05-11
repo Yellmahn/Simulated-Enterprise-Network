@@ -2,7 +2,7 @@
 
 ## 🏢 Project Overview
 
-This simulated enterprise network is designed using **Cisco Packet Tracer** to reflect a realistic mid-sized company's IT infrastructure. The network implements key principles of **segmentation, high availability, and layered security**, while maintaining support for core services such as DNS, Email, and centralized logging.
+This simulated enterprise network is designed using **Cisco Packet Tracer** to reflect a realistic mid-sized company's IT infrastructure. The network implements key principles of **segmentation, high availability, security**, while maintaining support for core services such as DNS, Email, Web Server and centralized logging.
 
 ---
 
@@ -20,7 +20,7 @@ This simulated enterprise network is designed using **Cisco Packet Tracer** to r
 ## 🧱 Core Components
 
 ### 🔹 VLAN Structure
-- VLANs are used to segment departments, including HR, Finance, IT, and Management
+- VLANs are used to segment departments
 - A separate VLAN is allocated for Guest Wi-Fi access
 - A dedicated DMZ VLAN isolates publicly accessible servers (e.g., Email, DNS)
 
