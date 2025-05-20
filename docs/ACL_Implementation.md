@@ -52,7 +52,9 @@ Each network is on a **separate VLAN** with inter-VLAN routing enabled. ACLs are
     - 70 permit udp any host 10.0.0.40 eq domain
     - 80 permit tcp any host 10.0.0.40 eq domain
     - 90 deny ip any 10.0.0.0 0.0.0.25
+    
 *Extended IP access list BLOCK_VLAN10*
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.10.0 0.0.0.255 192.168.20.0 0.0.0.255
@@ -61,7 +63,9 @@ Each network is on a **separate VLAN** with inter-VLAN routing enabled. ACLs are
     - 60 deny ip 192.168.10.0 0.0.0.255 192.168.50.0 0.0.0.255
     - 70 deny ip 192.168.10.0 0.0.0.255 192.168.60.0 0.0.0.255
     - 80 permit ip 192.168.10.0 0.0.0.255 any
+    
 Extended IP access list BLOCK_VLAN20
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.20.0 0.0.0.255 192.168.10.0 0.0.0.255
@@ -70,7 +74,9 @@ Extended IP access list BLOCK_VLAN20
     - 60 deny ip 192.168.20.0 0.0.0.255 192.168.50.0 0.0.0.255
     - 70 deny ip 192.168.20.0 0.0.0.255 192.168.60.0 0.0.0.255
     - 80 permit ip 192.168.20.0 0.0.0.255 any
+    
 Extended IP access list BLOCK_VLAN30
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.30.0 0.0.0.255 192.168.10.0 0.0.0.255
@@ -79,7 +85,9 @@ Extended IP access list BLOCK_VLAN30
     - 60 deny ip 192.168.30.0 0.0.0.255 192.168.50.0 0.0.0.255
     - 70 deny ip 192.168.30.0 0.0.0.255 192.168.60.0 0.0.0.255
     - 80 permit ip 192.168.30.0 0.0.0.255 any
+    
 Extended IP access list BLOCK_VLAN40
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.40.0 0.0.0.255 192.168.10.0 0.0.0.255
@@ -88,7 +96,9 @@ Extended IP access list BLOCK_VLAN40
     - 60 deny ip 192.168.40.0 0.0.0.255 192.168.50.0 0.0.0.255
     - 70 deny ip 192.168.40.0 0.0.0.255 192.168.60.0 0.0.0.255
     - 80 permit ip 192.168.40.0 0.0.0.255 any
+    
 Extended IP access list BLOCK_VLAN50
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.50.0 0.0.0.255 192.168.10.0 0.0.0.255
@@ -97,7 +107,9 @@ Extended IP access list BLOCK_VLAN50
     - 60 deny ip 192.168.50.0 0.0.0.255 192.168.40.0 0.0.0.255
     - 70 deny ip 192.168.50.0 0.0.0.255 192.168.60.0 0.0.0.255
     - 80 permit ip 192.168.50.0 0.0.0.255 any
+    
 Extended IP access list BLOCK_VLAN60
+
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.60.0 0.0.0.255 192.168.10.0 0.0.0.255
