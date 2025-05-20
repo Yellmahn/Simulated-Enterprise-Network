@@ -36,9 +36,12 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
    - **HSRP failover** between core routers  
    - **STP prevents switching loops**
    - 
-## Detailed Documents about the project
+## Detailed Documents about the Project
 
-1. **Network Design**[Click Here](./docs/design.md)
+1. **Network Design** [Click Here](./docs/design.md)
+2. **IP Addressing** [Click Here](./docs/IP_Addressing.md)
+3. **VLAN Implementation** [Click Here](./docs/vlan_implementation.md)
+4. **ACL Implementation** [Click Here](./docs/ACL_Implementation.md)
 
 ## 🔧 How to Open the Project
 1. Download [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
