@@ -41,7 +41,7 @@ Each network is on a **separate VLAN** with inter-VLAN routing enabled. ACLs are
 | `BLOCK_VLAN60`       | Inbound   | R3 and R2 – G0/0.60 | Deny access from Guest to internal departments    |
 
 ## 🛡️Detailed Access Control lists
-Extended IP access list DMZ_ACCESS_CONTROL
+*Extended IP access list DMZ_ACCESS_CONTROL*
     - 10 permit tcp any host 10.0.0.10 eq www
     - 20 permit tcp any host 10.0.0.10 eq 443
     - 30 permit tcp any host 10.0.0.20 eq smtp
@@ -51,7 +51,7 @@ Extended IP access list DMZ_ACCESS_CONTROL
     - 70 permit udp any host 10.0.0.40 eq domain
     - 80 permit tcp any host 10.0.0.40 eq domain
     - 90 deny ip any 10.0.0.0 0.0.0.25
-Extended IP access list BLOCK_VLAN10
+*Extended IP access list BLOCK_VLAN10*
     - 10 permit udp any eq bootpc any eq bootps
     - 20 permit udp any eq bootps any eq bootpc
     - 30 deny ip 192.168.10.0 0.0.0.255 192.168.20.0 0.0.0.255
