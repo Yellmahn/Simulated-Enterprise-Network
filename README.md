@@ -35,6 +35,10 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
 3. **High Availability & Redundancy**
    - **HSRP failover** between core routers  
    - **STP prevents switching loops**
+   - 
+## Detailed Documents about the project
+
+1. **Network Design**(./docs/design.md)
 
 ## 🔧 How to Open the Project
 1. Download [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
