@@ -36,7 +36,7 @@ This project is a simulated enterprise network built using Cisco Packet Tracer t
    - **HSRP failover** between core routers  
    - **STP prevents switching loops**
    - 
-## Detailed Documents about the Project
+## 📄 Detailed Documents about the Project
 
 1. **Network Design** [Click Here](./docs/design.md)
 2. **IP Addressing** [Click Here](./docs/IP_Addressing.md)
