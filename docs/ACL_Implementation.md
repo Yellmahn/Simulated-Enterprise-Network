@@ -42,6 +42,7 @@ Each network is on a **separate VLAN** with inter-VLAN routing enabled. ACLs are
 
 ## 🛡️Detailed Access Control lists
 *Extended IP access list DMZ_ACCESS_CONTROL*
+
     - 10 permit tcp any host 10.0.0.10 eq www
     - 20 permit tcp any host 10.0.0.10 eq 443
     - 30 permit tcp any host 10.0.0.20 eq smtp
